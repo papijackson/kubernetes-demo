@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: demo-app
+spec:
+  containers:
+  - name: demo-app
+    image: papijackson/demo-app

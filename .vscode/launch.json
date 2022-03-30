@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoAppApplication<demo-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.papijackson.demoapp.DemoAppApplication",
+            "projectName": "demo-app",
+            "args": ""
+        }
+    ]
+}
