@@ -5,9 +5,9 @@ metadata:
   labels:
     app: demo-app
 spec:
-  type : LoadBalancer
+  type : ClusterIP
   ports:
-  - port: 3000
+  - port: 3333
     targetPort : 8080
     protocol: TCP
     name: http
